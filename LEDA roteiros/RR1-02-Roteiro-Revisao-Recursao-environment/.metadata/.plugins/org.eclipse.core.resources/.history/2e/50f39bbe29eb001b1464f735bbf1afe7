@@ -1,0 +1,38 @@
+package sorting.simpleSorting;
+
+import java.util.Arrays;
+
+import sorting.AbstractSorting;
+import util.Util;
+
+/**
+ * The bubble sort algorithm iterates over the array multiple times, pushing big
+ * elements to the right by swapping adjacent elements, until the array is
+ * sorted.
+ */
+public class BubbleSort<T extends Comparable<T>> extends AbstractSorting<T> {
+
+	@Override
+	public void sort(T[] array, int leftIndex, int rightIndex) {
+		if (array.length > 1) {
+			boolean swapped = true;
+			while (swapped) {
+				swapped = false;
+				for (int i = leftIndex; i < rightIndex; i++) {
+					if (array[i].compareTo(array[i++]) > 0) {
+						Util.swap(array, i, i++);
+						swapped = true;
+					}
+				}
+			}
+		}
+	}
+	
+	public static void main(String[] args) {
+		Integer[] array = new Integer[] { 30, 28, 7, 29, 11, 26, 4, 22, 23,31};
+		BubbleSort<Integer> bubble = new BubbleSort<Integer>();
+		
+		bubble.sort(array, 0, array.length);
+		System.out.println(Arrays.toString(array));
+	}
+}

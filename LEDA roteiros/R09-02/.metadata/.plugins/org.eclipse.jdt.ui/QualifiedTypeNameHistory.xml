@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="util.Util"/>
+    <fullyQualifiedTypeName name="adt.heap.ComparatorMinHeap"/>
+    <fullyQualifiedTypeName name="adt.heap.HeapImpl"/>
+    <fullyQualifiedTypeName name="adt.heap.ComparatorMaxHeap"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="orderStatistic.OrderStatisticsHeapImpl"/>
+</qualifiedTypeNameHistroy>

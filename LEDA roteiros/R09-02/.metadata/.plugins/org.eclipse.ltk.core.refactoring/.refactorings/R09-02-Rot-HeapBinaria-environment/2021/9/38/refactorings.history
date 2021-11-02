@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;j&apos; in &apos;adt.heap.HeapImpl.buildHeap(...)&apos; to &apos;i&apos;&#x0D;&#x0A;- Original project: &apos;R09-02-Rot-HeapBinaria-environment&apos;&#x0D;&#x0A;- Original element: &apos;adt.heap.HeapImpl.buildHeap(T[]).j&apos;&#x0D;&#x0A;- Renamed element: &apos;j&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;j&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;adt.heap{HeapImpl.java[HeapImpl~buildHeap~\[QT;@j!3468!3476!3472!3472!I!0!false" name="i" references="true" stamp="1631817015644" version="1.0"/>
+</session>

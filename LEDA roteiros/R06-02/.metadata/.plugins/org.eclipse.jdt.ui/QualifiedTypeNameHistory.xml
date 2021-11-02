@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="adt.linkedList.SingleLinkedListNode"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="adt.linkedList.SingleLinkedListImpl"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="adt.linkedList.DoubleLinkedListImpl"/>
+    <fullyQualifiedTypeName name="adt.linkedList.DoubleLinkedListNode"/>
+    <fullyQualifiedTypeName name="adt.linkedList.RecursiveSingleLinkedListImpl"/>
+    <fullyQualifiedTypeName name="adt.linkedList.RecursiveDoubleLinkedListImpl"/>
+</qualifiedTypeNameHistroy>

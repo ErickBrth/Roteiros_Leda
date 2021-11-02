@@ -1,0 +1,57 @@
+package adt.linkedList;
+
+import java.util.Arrays;
+
+public class DoubleLinkedListImpl<T> extends SingleLinkedListImpl<T> implements DoubleLinkedList<T> {
+
+	protected DoubleLinkedListNode<T> last;
+	
+	public DoubleLinkedListImpl() {
+		this.head = new DoubleLinkedListNode<>();
+		this.last = (DoubleLinkedListNode<T>) this.head;
+	}
+	
+	public static void main(String[] args) {
+		DoubleLinkedListImpl<Object> n = new DoubleLinkedListImpl<>();
+		n.insertFirst(1);
+		n.insert(2);
+		n.insert(3);
+		System.out.println(n.search(2));
+		System.out.println(Arrays.toString(n.toArray()));
+	}
+
+	@Override
+	public void insertFirst(T element) {
+		DoubleLinkedListNode head = (DoubleLinkedListNode) getHead();
+		DoubleLinkedListNode<T> newHead = new DoubleLinkedListNode<T>(element, head, new DoubleLinkedListNode<>());
+		
+		newHead.next = head;
+		newHead.previous.isNIL();
+		head.setPrevious(newHead);
+		
+		if (head.isNIL()) {
+			last = newHead;
+		}
+		head = newHead;
+	}
+
+	@Override
+	public void removeFirst() {
+		
+	}
+
+	@Override
+	public void removeLast() {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Not implemented yet!");
+	}
+
+	public DoubleLinkedListNode<T> getLast() {
+		return last;
+	}
+
+	public void setLast(DoubleLinkedListNode<T> last) {
+		this.last = last;
+	}
+
+}

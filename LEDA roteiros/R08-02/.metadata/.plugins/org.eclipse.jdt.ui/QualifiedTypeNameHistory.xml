@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.sql.Array"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.VerifyError"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.Node"/>
+    <fullyQualifiedTypeName name="adt.bst.extended.FloorCeilBSTImpl"/>
+    <fullyQualifiedTypeName name="adt.bt.BTNode"/>
+    <fullyQualifiedTypeName name="adt.bst.BSTNode"/>
+    <fullyQualifiedTypeName name="adt.bst.SimpleBSTManipulationImpl"/>
+    <fullyQualifiedTypeName name="adt.bst.BSTImpl"/>
+</qualifiedTypeNameHistroy>

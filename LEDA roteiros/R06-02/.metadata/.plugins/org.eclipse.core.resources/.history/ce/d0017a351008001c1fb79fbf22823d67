@@ -1,0 +1,70 @@
+package adt.linkedList;
+
+public class RecursiveDoubleLinkedListImpl<T> extends RecursiveSingleLinkedListImpl<T> implements DoubleLinkedList<T> {
+
+	protected RecursiveDoubleLinkedListImpl<T> previous;
+
+	public RecursiveDoubleLinkedListImpl() {
+
+	}
+
+	public void insert(T element) {
+		if (isEmpty()) {
+			data = element;
+			next = new RecursiveDoubleLinkedListImpl<>();
+			if (previous == null) {
+				previous = new RecursiveDoubleLinkedListImpl<>();
+			}
+		} else {
+			next.insert(element);
+		}
+	}
+
+	public void remove(T element) {
+		if (isEmpty()) {
+		} else {
+			if (data == element) {
+				if (previous.isEmpty() && next.isEmpty()) {
+					data = (T) new RecursiveDoubleLinkedListImpl();
+					next = (RecursiveSingleLinkedListImpl<T>) new RecursiveDoubleLinkedListImpl();
+					previous = (RecursiveDoubleLinkedListImpl<T>) new RecursiveDoubleLinkedListImpl();
+				} else {
+					data = next.data;
+					next = next.next;
+					if (next != null) {
+						setNext(previous);
+					}
+				}
+
+			}
+		}
+
+	}
+
+	@Override
+	public void insertFirst(T element) {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Not implemented yet!");
+	}
+
+	@Override
+	public void removeFirst() {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Not implemented yet!");
+	}
+
+	@Override
+	public void removeLast() {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Not implemented yet!");
+	}
+
+	public RecursiveDoubleLinkedListImpl<T> getPrevious() {
+		return previous;
+	}
+
+	public void setPrevious(RecursiveDoubleLinkedListImpl<T> previous) {
+		this.previous = previous;
+	}
+
+}

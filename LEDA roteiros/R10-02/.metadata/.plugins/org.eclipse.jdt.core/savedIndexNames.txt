@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\erick\OneDrive\Área de Trabalho\CC\LEDA roteiros\R10-02\.metadata\.plugins\org.eclipse.jdt.core
+4162464975.index
+585370964.index
+3374466955.index
+3435105314.index

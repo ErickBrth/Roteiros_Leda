@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-09-07T15:34:50.935-0300</date>
+  <logger>ERICK ARAKEN VIEIRA GOMES</logger>
+  <level>FINE</level>
+  <message>File 119210561-ERICK ARAKEN VIEIRA GOMES.zip was received. It was sent by ERICK ARAKEN VIEIRA GOMES from IP 192.168.100.5 at 07-09-2021 15*34*50</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-09-10T00:50:39.941-0300</date>
+  <logger>ERICK ARAKEN VIEIRA GOMES</logger>
+  <level>FINE</level>
+  <message>File 119210561-ERICK ARAKEN VIEIRA GOMES.zip was received. It was sent by ERICK ARAKEN VIEIRA GOMES from IP 192.168.100.5 at 10-09-2021 00*50*39</message>
+</record>

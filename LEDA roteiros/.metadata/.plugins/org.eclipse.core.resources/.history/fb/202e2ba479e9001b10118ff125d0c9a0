@@ -1,0 +1,34 @@
+public class Quizz22 {
+
+	public int[] ordena(int[] A, int[] B) {
+		int[] C = new int[A.length + B.length];
+		int auxB = B.length;
+		int auxA = 0;
+		int i = 0;
+		while(auxA < A.length && auxB >= B.length) {
+			if(A[auxA] <= B[auxB]) {
+				C[i] = A[auxA];
+				auxA++;
+				i++;
+			}else {
+				C[i] = B[auxB];
+				auxB--;
+				i++;
+			}
+		}
+		while(auxA < A.length ) {
+			C[i] = A[auxA];
+			i++;
+			auxA++;
+		}
+		
+		while(auxB < B.length) {
+			C[i] = B[auxB];
+			i++;
+			auxB--;
+		}
+		
+
+		return C;
+	}
+}

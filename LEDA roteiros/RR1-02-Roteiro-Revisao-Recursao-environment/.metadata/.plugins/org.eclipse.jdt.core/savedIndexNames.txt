@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\Erick Brth\Desktop\CC\LEDA roteiros\RR1-02-Roteiro-Revisao-Recursao-environment\.metadata\.plugins\org.eclipse.jdt.core
+3700795902.index
+1151755673.index
+1375024210.index
+564972682.index

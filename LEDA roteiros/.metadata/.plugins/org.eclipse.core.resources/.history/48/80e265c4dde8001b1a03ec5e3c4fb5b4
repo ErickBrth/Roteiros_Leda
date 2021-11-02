@@ -1,0 +1,10 @@
+import java.util.Arrays;
+
+public class teste {
+	public static void main(String[] args) {
+		Quizz22 teste = new Quizz22();
+		int[] A = {6,9,10,20};
+		int[] B = {10,9,8,7};
+		System.out.println(Arrays.toString(teste.ordena(A, B)));
+	}
+}

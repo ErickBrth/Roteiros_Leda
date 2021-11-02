@@ -1,0 +1,15 @@
+package teste;
+
+import java.util.Iterator;
+
+public class Teste {
+	public static void main(String[] args) {
+		int i = 0;
+		int result = 0;
+		while (i != 2020) {
+			result += Math.cbrt(i)%10; 
+			i++;
+			System.out.println(result);
+		} 
+	}
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="adt.stack.StackUnderflowException"/>
+    <fullyQualifiedTypeName name="adt.stack.StackOverflowException"/>
+    <fullyQualifiedTypeName name="adt.stack.StackImpl"/>
+    <fullyQualifiedTypeName name="javax.naming.spi.DirStateFactory.Result"/>
+    <fullyQualifiedTypeName name="adt.queue.QueueOverflowException"/>
+    <fullyQualifiedTypeName name="adt.queue.QueueUnderflowException"/>
+    <fullyQualifiedTypeName name="adt.queue.QueueImpl"/>
+    <fullyQualifiedTypeName name="adt.queue.CircularQueue"/>
+    <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
+    <fullyQualifiedTypeName name="adt.queue.QueueUsingStack"/>
+</qualifiedTypeNameHistroy>

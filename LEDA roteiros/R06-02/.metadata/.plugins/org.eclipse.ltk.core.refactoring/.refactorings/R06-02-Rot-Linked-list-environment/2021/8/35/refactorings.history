@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;auxHead&apos; in &apos;adt.linkedList.DoubleLinkedListImpl.insert(...)&apos; to &apos;newHead&apos;&#x0D;&#x0A;- Original project: &apos;R06-02-Rot-Linked-list-environment&apos;&#x0D;&#x0A;- Original element: &apos;adt.linkedList.DoubleLinkedListImpl.insert(T).auxHead&apos;&#x0D;&#x0A;- Renamed element: &apos;auxHead&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;auxHead&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;adt.linkedList{DoubleLinkedListImpl.java[DoubleLinkedListImpl~insert~QT;@auxHead!862!924!886!892!QDoubleLinkedListNode\&lt;QT;&gt;;!0!false" name="newHead" references="true" stamp="1630156200653" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;arr&apos; in &apos;sorting.divideAndConquer.hybridMergesort.HybridMergeSort.insertionSort(...)&apos; to &apos;array&apos;&#x0D;&#x0A;- Original project: &apos;R02-02-Rot-RecursiveSorting-Quick3-Merge-environment&apos;&#x0D;&#x0A;- Original element: &apos;sorting.divideAndConquer.hybridMergesort.HybridMergeSort.insertionSort(T[], int, int).arr&apos;&#x0D;&#x0A;- Renamed element: &apos;arr&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;arr&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;sorting.divideAndConquer.hybridMergesort{HybridMergeSort.java[HybridMergeSort~insertionSort~\[QT;~I~I@arr!2820!2826!2824!2826!\[QT;!0!true" name="array" references="true" stamp="1627520646912" version="1.0"/>
+</session>

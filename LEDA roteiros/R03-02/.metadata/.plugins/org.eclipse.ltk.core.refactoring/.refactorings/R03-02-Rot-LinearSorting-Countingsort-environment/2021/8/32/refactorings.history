@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;k&apos; in &apos;sorting.linearSorting.CountingSort.sort(...)&apos; to &apos;maior&apos;&#x0D;&#x0A;- Original project: &apos;R03-02-Rot-LinearSorting-Countingsort-environment&apos;&#x0D;&#x0A;- Original element: &apos;sorting.linearSorting.CountingSort.sort(Integer[], int, int).k&apos;&#x0D;&#x0A;- Renamed element: &apos;k&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;k&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;sorting.linearSorting{CountingSort.java[CountingSort~sort~\[QInteger;~I~I@k!570!594!574!574!I!0!false" name="maior" references="true" stamp="1628247283250" version="1.0"/>
+</session>

@@ -1,0 +1,9 @@
+
+public class teste {
+	public static void main(String[] args) {
+		Quizz22 teste = new Quizz22();
+		int[] A = {8,9,10,11};
+		int[] B = {10,9,8,7};
+		teste.ordena(A, B);
+	}
+}
